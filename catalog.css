@@ -1,0 +1,70 @@
+body{
+    font-family:  serif;
+    text-align: center;
+    font-size: 20px;
+    
+    background-image: url("https://learn.logikaschool.com/uploads/student/2411471/670a3f8708917.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+p{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+nav {
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(108, 97, 83);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(176, 140, 93);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+h2{
+    text-shadow: 3px 0 10px rgba(65, 65, 65);
+    margin-top: 50px;
+}
+nav a:hover{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* Основний ефект підсвічування */
+               0 0 20px rgba(255, 255, 255, 0.6), /* Додатковий ефект */
+               0 0 30px ;
+    color: black;
+}
+
+.menu{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.str{
+    width: 45%;
+     background-color: rgba(108, 97, 83, 0.3);
+     box-shadow: 0 0 5px 0 rgba(65, 65, 65);
+     margin-top: 30px;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(65, 65, 65);
+}
