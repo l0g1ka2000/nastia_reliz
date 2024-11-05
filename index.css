@@ -1,6 +1,5 @@
 body{
     font-family:  serif;
-    text-align: center;
     font-size: 20px;
     
     background-image: url("https://learn.logikaschool.com/uploads/student/2411471/670a3f8708917.png");
@@ -11,48 +10,214 @@ body{
     margin: 0;
     padding: 0;
 }
-p{
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-   
-    padding: 5px;
-    border-radius: 5px;
-    
-}
+
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     background-color: rgb(108, 97, 83);
-    height: 80px;
 }
 
 nav a {
     text-decoration: none;
     font-size: 20px;
     color: rgb(176, 140, 93);
+    margin-top: 15px;
     margin-bottom: 15px;
     transition: 0.3s;
 }
 
-h2{
-    text-shadow: 3px 0 10px rgba(65, 65, 65);
-    
-}
 nav a:hover{
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* Основний ефект підсвічування */
                0 0 20px rgba(255, 255, 255, 0.6), /* Додатковий ефект */
                0 0 30px ;
-    color: black;
+    color: white;
 }
 
+
+
 .logo{
-    background-image: url('https://learn.logikaschool.com/uploads/student/2411471/6725fc17d50b5.jpeg'); /* Шлях до зображення */
-  background-size: cover; /* Зображення буде покривати весь контейнер */
-  background-position: center; /* Центрування зображення */
-  background-repeat: no-repeat;
-  height: 100vh;
+    background-image: url('https://learn.logikaschool.com/uploads/student/2411471/672a1d387f232.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    
+}
+h1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+.but{
+    background-image: url('https://learn.logikaschool.com/uploads/student/2411471/672a5b526b97e.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.but a{
+    font-size: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(108, 97, 83, 0.7);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.but a:hover{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* Основний ефект підсвічування */
+               0 0 20px rgba(255, 255, 255, 0.6), /* Додатковий ефект */
+               0 0 30px ;
+    color: white;
+    background-color: rgb(108, 97, 83, 0.9);
+    transform: scale(1.1);
+    
+}
+
+
+
+.container {
+    background-color: #fff;
+    max-width: 900px;
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+i {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+
+
+footer {
+    background-color: rgb(108, 97, 83);
+    color: white;
+    padding:  20px 0px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.footer-nav a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(176, 140, 93);
+    transition: 0.3s;
+}
+footer p{
+    color: white;
+}
+
+
+.footer-nav a:hover{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* Основний ефект підсвічування */
+               0 0 20px rgba(255, 255, 255, 0.6), /* Додатковий ефект */
+               0 0 30px ;
+    color: white;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.social-icon {
+
+    color: rgb(176, 140, 93);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+               0 0 20px rgba(255, 255, 255, 0.6),
+               0 0 30px rgba(255, 255, 255, 0.4);
 }
